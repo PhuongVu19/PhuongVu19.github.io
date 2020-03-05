@@ -9,19 +9,19 @@
   }
 } 
 @font-face {
-  font-family: mutator;
-  src: url(https://www.axis-praxis.org/fonts/webfonts/MutatorSans.ttf);
+  font-family: NewFontGX;
+  src: url(NewFontGX.ttf);
   
 }
 body {
   background-color: #a3d5d3;
-  font-family: mutator;
+  font-family: NewFontGX;
   font-size: 60px;
   color: red;
   opacity: 0.8;
 }
 h1 {
-  font-family: mutator;
+  font-family: NewFontGX;
   text-align: center;
   border: green 10px dotted;
   font-variation-settings: "wght" 600, "wdth" 1000 ; 

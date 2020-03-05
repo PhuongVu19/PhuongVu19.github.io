@@ -1,11 +1,11 @@
 @keyframes bw1 {
   0% {
     color: black;
-    font-variation-settings: "wght" 300, "wdth" 500;
+    font-variation-settings: "wght" 100;
   }
   100% {
     color: white;
-    font-variation-settings: "wght" 800, "wdth" 1000;
+    font-variation-settings: "wght" 400;
   }
 } 
 @font-face {
@@ -24,6 +24,5 @@ h1 {
   font-family: NewFontGX;
   text-align: center;
   border: green 10px dotted;
-  font-variation-settings: "wght" 600, "wdth" 1000 ; 
-  animation: bw1 0.4s infinite alternate
+  animation: bw1 0.4s infinite alternate;
 }

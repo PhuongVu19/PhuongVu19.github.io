@@ -1,0 +1,29 @@
+@keyframes bw1 {
+  0% {
+    color: black;
+    font-variation-settings: "wght" 300, "wdth" 500;
+  }
+  100% {
+    color: white;
+    font-variation-settings: "wght" 800, "wdth" 1000;
+  }
+} 
+@font-face {
+  font-family: mutator;
+  src: url(https://www.axis-praxis.org/fonts/webfonts/MutatorSans.ttf);
+  
+}
+body {
+  background-color: #a3d5d3;
+  font-family: mutator;
+  font-size: 60px;
+  color: red;
+  opacity: 0.8;
+}
+h1 {
+  font-family: mutator;
+  text-align: center;
+  border: green 10px dotted;
+  font-variation-settings: "wght" 600, "wdth" 1000 ; 
+  animation: bw1 0.4s infinite alternate
+}

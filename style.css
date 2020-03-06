@@ -1,10 +1,10 @@
 @keyframes bw1 {
   0% {
-    color: black;
+    color: cd261d;
     font-variation-settings: "wght" 100;
   }
   100% {
-    color: white;
+    color: cd261d;
     font-variation-settings: "wght" 400;
   }
 } 
@@ -14,16 +14,15 @@
   
 }
 body {
-  background-color: #a3d5d3;
+  background-color: #fee4e7;
   font-family: NewFontGX;
   font-size: 60px;
   color: red;
-  opacity: 0.8;
+  opacity: 1;
 }
 h1 {
   font-family: NewFontGX;
   text-align: center;
-  border: green 10px dotted;
   font-variation-settings: "wght" 600, "wdth" 1000 ; 
   animation: bw1 0.4s infinite alternate
 }

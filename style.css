@@ -10,7 +10,7 @@
 } 
 @font-face {
   font-family: NewFontGX;
-  src: url(NewFontGX.ttf);
+  src: url(https://phuongvu19.github.io/NewFontGX.ttf);
   
 }
 body {
@@ -24,5 +24,6 @@ h1 {
   font-family: NewFontGX;
   text-align: center;
   border: green 10px dotted;
-  animation: bw1 0.4s infinite alternate;
+  font-variation-settings: "wght" 600, "wdth" 1000 ; 
+  animation: bw1 0.4s infinite alternate
 }
